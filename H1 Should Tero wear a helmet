@@ -1,0 +1,252 @@
+Threat Modeling – Reading & Listening Summaries
+
+Braiterman et al. (2020): Threat Modeling Manifesto
+
+When I was reading the manifesto one thing really caught my attention. The main idea of the manifesto is that threat modeling is not about being perfect. It is not about finding every vulnerability in the system. The main idea of threat modeling is to help people make decisions, about security. The main idea of threat modeling is to help people use the resources they have to make these security decisions.
+
+Some key points:
+
+The security team should always be there to help the business not get in the way of the business. Security is really important, for the business. The security team and the business should work well together.  This way the business and the security team can both do their jobs. Everything will run smoothly.
+
+Threat modeling is really effective when people who know about business and technical experts collaborate. They should work together to make it work well. Threat modeling is all about people who understand business and technical experts coming together. When they do this threat modeling works at its best.
+
+We need to do threat modeling all the time. Threat modeling is a thing we have to keep doing to make sure we are safe, from threats. 
+The manifesto is really important because it asks four questions that help with all the work on threat modeling. 
+One thing that I personally liked was how strongly the manifesto emphasizes communication. The thing about security is that it is not about doing technical work security is also about explaining the risks of security in a way that the people who make the decisions about security can understand what security is all, about.
+
+Source: Braiterman et al., 2020
+
+Shostack (2022): Welcome to the World’s Shortest Threat Modeling Course
+
+ Threat modeling is something that can be easy to understand and use.
+
+Important ideas:
+
+To start with you need to understand the system. The first step is to get a grasp of the system. This is where data flow diagrams come in. They really help with understanding the system and how the data flow diagrams work in the system. 
+
+The STRIDE model is a simple way to think about the different kinds of threats that are out there. It helps us understand what the STRIDE model is about, which is to categorize threats in a way that makes sense. The STRIDE model is easy to use. It is a good tool, for figuring out what the STRIDE model can do to help us with threats.
+
+Threat modeling is really about asking the questions when it comes to the security of a system. It is not about having all the answers. Threat modeling is a process where you think about what could go wrong with your system and what you can do to stop these things from happening. You have to ask questions like what're the threats to your system and how can you protect it from these threats. Threat modeling is, about finding the best way to keep your system safe and that is why threat modeling is so important.
+
+Making changes can really make a big difference in the way we think about security. Even tiny things we do can help improve our security thinking. Security thinking is important and small efforts can make it better.
+
+When I listened to the course I found out that threat modeling is really about thinking in a way not just about using advanced tools. 
+
+Source: Shostack, 2022
+
+OWASP (2021): Threat Modeling Cheat Sheet
+
+The OWASP cheat sheet was very beginner-friendly and practical.
+
+Main points:
+
+You can do threat modeling at any point when you are developing something. Threat modeling is a process that can happen at the beginning or at the end of development. It is, about looking at the threat modeling process and figuring out when it is the best time to do it. Threat modeling is something that people do to help them make their products more secure. So you can do threat modeling whenever you want.
+
+Identify assets, threats, vulnerabilities, and mitigations.
+
+People often use STRIDE. It is not something that you have to use. STRIDE is a choice however you do not necessarily need to use STRIDE.
+
+Prioritization is really important because not all threats are the same. Some threats are more serious than others. So we need to prioritize the threats. The threats that are the serious need to be dealt with first. This is what prioritization of threats is, about.
+
+The outcome of this should result in things happening, not just a lot of paperwork. We need to see actions taken not just something that is written down in a document. The outcome should be, about doing something not just documenting things.
+
+This resource really helped me understand threat modeling. It did not feel much to handle. This resource made threat modeling feel manageable. I liked that it made threat modeling easy to grasp, not something that felt overwhelming. Threat modeling is something that I can work with now.
+
+Source: OWASP CheatSheets Series Team, 2021
+
+Infosec Scene – Darknet Diaries Podcast
+
+Darknet Diaries – Episode 38: Dark Caracal
+
+In this episode the podcast is, about a hacking operation that went on for a long time. The people who did this used phone apps to spy on people. What really surprised me was that these apps looked totally normal and did not seem harmful all. The fake mobile apps looked really ordinary.
+
+Key points:
+
+The attackers went after the journalists and the activists. They wanted to hurt the journalists and the activists. The attackers did a thing to the journalists and the activists.
+
+Mobile phones were the main attack surface.
+
+Social engineering was really important. It played a big role in what happened with the social engineering. The social engineering was a part of it.
+
+The campaign went on for years and years. It was a time before people even realized the campaign was happening. 
+
+This episode showed how attackers usually depend more on people trusting them than using fancy computer tricks. The attackers really rely on trust to get what they want. They use this trust to their advantage of trying to find technical exploits.
+
+Source: Darknet Diaries Podcast – Episode 38
+
+a) Security Hygiene
+
+We all need to do some things to keep ourselves safe online. Basic security practices are very important. Everyone should follow these security practices.
+
+Here are some basic security practices:
+
+* Use passwords that are hard to guess for all of your accounts.
+
+1. Do not use the password for multiple accounts.
+
+2. Change your passwords often.
+
+Basic security practices, like these can really help. Everyone should make sure to follow these security practices.
+
+For individuals:
+
+Use strong and unique passwords.
+
+Enable multi-factor authentication whenever possible.
+
+Keep systems and apps updated.
+
+Be careful with emails, links, and attachments.
+
+Lock devices when not in use.
+
+Make regular backups.
+
+For companies:
+
+We should only let users access the things that they really need to do their jobs. This means we do not give them access to everything. We only give them access to the things that're necessary for the work they are doing. Limit user access, to what's actually needed.
+
+Keep systems patched and updated.
+
+Train employees about phishing and security basics.
+
+Maintain backups and test recovery.
+
+Have a basic incident response plan.
+
+If we follow some security rules we can fix a lot of security problems. Security problems are an issue but security problems can be reduced if we do a few basic things. Following these security basics can make a difference and reduce security problems.
+
+b) Make-Belief Boogie-Man – Threat Model
+
+Imaginary Company: NordicCare Online
+
+NordicCare Online is a made up healthcare service. It lets people book appointments with doctors. They can also have meetings, with doctors and keep their medical records on the computer. This way NordicCare Online helps people with their needs.
+
+The main goal of a business is really simple. It will serve customers in a way that's reliable and secure. This means the business will make sure that customers can use the service without any problems. The business wants customers to keep using the service and to pay for it. The business needs to do this so that customers will stay with the service.
+
+(1) So what is the project that we are working on?
+
+Assets
+
+Patient health records (most critical asset)
+
+Personal identity data
+
+Payment information
+
+System availability
+
+Company reputation
+
+Health data is clearly the crown jewel, while internal test systems are much less important.
+
+Customer Perspective
+
+People deal with the company in ways, such, as
+
+* the website
+
+* social media
+
+* the customer service team
+
+Customers interact with these things when they want to buy something or get some help from the company.
+
+Customers interact with the products that the company makes.
+
+Customers interact with the people who work for the company.
+
+Website and mobile app
+
+Online appointment booking
+
+Email confirmations
+
+Video consultations
+
+If these systems are not working properly or if the customers feel that they are not safe then the customers will stop using the service. The customers will lose trust in the systems if it does not work or if they feel unsafe.  The service needs to make sure that the systems are working well and that the customers feel safe when they use them. If not the customers will stop using the service. They will go somewhere else.
+
+(2) What Kind Of Things Can Go Wrong With This?
+
+The threat model that we used is called STRIDE and also the CIA model. We used these two models, STRIDE and CIA to figure out what could go wrong. The STRIDE model and the CIA model they are both important, for understanding threats.
+
+Examples of risks:
+
+Spoofing is when someone uses stolen login information to get into your accounts. They do this by pretending to be you using the credentials they stole. This is a problem because the person who stole your credentials can do a lot of damage to your accounts. Spoofing can happen to anyone. It is very important to protect your accounts from people who might try to use stolen credentials to get in. When spoofing happens the person with the stolen credentials can use them to access your accounts and do things that you would not want them to do. 
+Tampering is when someone messes with data. This means that medical information is being changed. Medical data being altered is a problem because it can affect peoples health. When medical data is altered it is like someone is playing with the information. Medical data is very important. Should not be changed by anyone who is not supposed to. Medical data being altered can cause a lot of trouble.
+
+Information Disclosure: Health data leak
+
+Denial of Service: Service unavailable
+
+Elevation of Privilege: Regular user gaining admin access
+
+Threat Actors
+
+Cybercriminals targeting health data
+
+Organized attackers focusing on healthcare
+
+Opportunistic attackers
+
+COI Analysis
+
+Capability: Medium to high
+
+Opportunity: Public internet-facing service
+
+Intent: Financial gain and data theft
+
+If a company has a data breach it will have a big effect because of the legal consequences and the loss of trust in the company. The data breach will cause a lot of problems. A data breach is very serious. It can hurt the company in many ways. The company will have to deal with the consequences of the data breach and that will be very costly. 
+
+
+
+Using META approach:
+
+Mitigate
+
+Multi-factor authentication
+
+Encryption of sensitive data
+
+Monitoring and logging
+
+Eliminate
+
+Remove unused services and access rights
+
+Transfer
+
+Cyber insurance
+
+External security audits
+
+Accept
+
+Minor usability inconvenience for stronger security
+
+(4) Did we do an enough job when it comes to the things that matter to the people involved in the project I mean did we really do a good enough job with the tasks that were assigned to us and did our actions have a positive impact, on the overall outcome did we do a good enough job in the end.
+
+Regular security audits
+
+Penetration testing
+
+We need to keep updating our threat modeling . This is because threat modeling is something that we have to do to stay safe. Threat modeling updates are very important for us. We have to make sure our threat modeling is always up, to date. This way we can protect ourselves from threats. Keep our threat modeling strong. We will keep working on our threat modeling updates. Threat modeling updates are a part of what we do.
+
+Learning from incidents
+
+Security is never really done. The thing, about security is that it needs to be looked at all the time and security has to be made better. Security is something that always needs work so security is never really finished.
+
+Sources
+
+Karvinen, T. (2024). Information Security Course.
+
+https://terokarvinen.com/information-security/
+
+Braiterman et al. (2020). Threat Modeling Manifesto
+
+Shostack, A. (2022). World’s Shortest Threat Modeling Course
+
+OWASP CheatSheets Series Team (2021). Threat Modeling Cheat Sheet
+
+Darknet Diaries Podcast – Episode 38
