@@ -1,0 +1,64 @@
+I read this paper by Hutchins and others from 2011, its called Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. I mostly looked at the abstract and section 3.2 on the Intrusion Kill Chain. Its from Lockheed Martin, and the link is there if anyone wants it.
+
+The main idea is that usual defenses, like perimeter stuff, they just react once something bad happens. But attackers tend to do the same kinds of steps over and over, even in different attacks. So the Intrusion Kill Chain breaks it down into phases, which I think helps defenders spot things sooner and maybe stop them partway.
+
+There are seven phases in this chain. 
+Reconnaissance, where the attacker learns about the target, gathers info. 
+Weaponization, they make malware or an exploit ready. Delivery comes next, sending it out like through email or a USB drive or something. 
+Exploitation, thats when they hit a vulnerability.
+Installation lets them stick around on the system. 
+Command and control gives remote access.  
+Actions on objectives, like stealing data or messing things up.
+
+It seems like instead of just trying to block the malware at the end, defenders should aim to break the chain anywhere along the way. 
+One thing that stands out to me is how the kill chain looks pretty linear, step by step. But a lot of modern attacks feel more like they go back and forth, or happen in parallel. Like cloud-native stuff or living-off-the-land techniques, where they use normal tools. How do defenders tweak the model for that, I wonder. It gets a bit messy thinking about it.
+
+a) Tactics, Techniques, and Procedures (TTPs)
+
+Context: MITRE ATT&CK for Enterprise
+Source:
+https://attack.mitre.org
+
+FAQ (General): https://attack.mitre.org/resources/faq/
+
+Tactic (definition + example)
+
+Definition:
+A tactic describes the attacker’s goal or intent at a specific stage of the attack.
+
+Example tactic (ATT&CK):
+Credential Access
+→ Goal: steal usernames, passwords, or authentication material.
+
+Technique & Sub-technique
+
+Technique (definition):
+A technique describes how an attacker achieves a tactic.
+
+Example technique:
+OS Credential Dumping (T1003)
+→ Extracting credentials from the operating system.
+
+Sub-technique (definition):
+A sub-technique is a more specific implementation of a technique.
+
+Example sub-technique:
+LSASS Memory (T1003.001)
+→ Dumping credentials from the LSASS process on Windows.
+
+Procedure
+
+Definition:
+A procedure is the exact way an attacker uses a technique in the real world (tools, commands, scripts).
+
+Example procedure:
+
+Attacker runs:
+
+procdump.exe -ma lsass.exe lsass.dmp
+
+
+Then extracts passwords using Mimikatz.
+
+Procedures are not standardized in ATT&CK because they vary per attacker.
+
