@@ -1,0 +1,25 @@
+1) Debian on VirtualBox(Karvinen 2021)
+                 VirtualBOx allows a safe, isolates practice environment.
+                 Download Debian ISO, create VM with proper memory/disk settings.
+                 Disk partiotining only affects the virtual disk.
+                 Update system and install tools for security and usability.
+2) Command line basics
+                 Navigate directories: pwd, ls, cd.
+                 Read files: cat
+                 Administrative actions: sudo
+                 Pipes and redirection allow combining commands.
+                 man helps read documentation and learn independently.
+                 Understanding terminal output is key for problem solving.
+3) Can't Fish - Network Connectivity
+                  ping 1.1.1.1 tested connection
+                  Enabled network and received replies
+                  disabled network, no replies received
+4) Local Only -Port Scanning
+                  Installed nmap and ran sudo nmap -Alocalhost
+                   most of the ports closed hence no active network services
+5) Daemon Scan - Apache Server
+                  Installed and started Apache web server.
+                   Re ran nmap and port 80 was opened
+6) Over the wire Bandit Levels 0-4
+                   Connected via SSH, solved first 5 levels.
+                    Taska used linux commands: list files, read hidden files, handle unusual names, identify file types.
