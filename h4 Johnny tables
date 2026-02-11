@@ -1,0 +1,191 @@
+# Web Application Security Assignment Report
+
+## 1. Introduction
+
+This report is based on the web application security assignment given in the course. All activities were started only after accepting the course rules in Moodle, and all work was done in **legal and ethical lab environments** only. No real systems or websites were tested.
+
+I want to be honest in this report. While I was able to understand and complete the **theory parts and some practical tasks**, I faced **many difficulties with WebGoat**, especially with login issues and the Developer Tools lesson. Because of these difficulties and time spent troubleshooting, I could not fully complete the WebGoat practical tasks as expected. I have explained these challenges clearly below as part of my learning process.
+
+---
+
+## 2. OWASP Top 10 (2021) – Summaries
+
+### OWASP Top 10 – General
+
+* A list of the most common web application security risks
+* Based on real-world vulnerability data
+* Helps developers understand what to avoid
+* Focuses on prevention and awareness
+
+**My comment:** OWASP Top 10 helped me realize that most security issues come from simple mistakes rather than advanced attacks.
+
+---
+
+### A01:2021 – Broken Access Control
+
+* Users can access resources they should not
+* Missing authorization checks on server side
+* URL manipulation can expose sensitive data
+* Privilege escalation is common
+
+**My comment:** This vulnerability feels very realistic because even small mistakes can expose private data.
+
+---
+
+### A05:2021 – Security Misconfiguration
+
+* Default settings left unchanged
+* Debug or test modes enabled
+* Unnecessary services running
+* Detailed error messages visible
+
+**My comment:** I learned that security is not only about writing code but also about configuring systems properly.
+
+---
+
+### A06:2021 – Vulnerable and Outdated Components
+
+* Old libraries and frameworks are used
+* Missing security patches
+* Known vulnerabilities are ignored
+* Attackers often exploit these weaknesses
+
+**My comment:** Regular updates are important even though they feel routine and unexciting.
+
+---
+
+### A03:2021 – Injection
+
+* User input is not validated properly
+* SQL Injection is a common example
+* Attackers can change database queries
+* Happens due to unsafe query construction
+
+**My comment:** Injection attacks are interesting because they exploit application logic instead of breaking the system directly.
+
+---
+
+## 3. XKCD 327 – “Exploits of a Mom”
+
+* Comic shows misunderstanding of technical terms
+* Highlights communication gap between users and technical people
+* Uses humor to explain security concepts
+
+**My comment:** It shows that security awareness is also about explaining risks in simple language.
+
+---
+
+## 4. WebGoat Installation and Issues Faced
+
+* WebGoat 2023.4 was installed locally
+* Java was used to run WebGoat
+* WebGoat was accessed via `http://localhost:8080/WebGoat`
+
+### Difficulties faced
+
+* Initially received “invalid username and password” error
+* Did not realize that WebGoat needs creating a separate internal user
+* Spent significant time troubleshooting login issues
+
+Even after resolving login, I struggled to correctly complete the Developer Tools lesson.
+
+---
+
+## 5. WebGoat – General: Developer Tools (Incomplete)
+
+### What I attempted
+
+* Logged into WebGoat successfully
+* Opened **General → Developer Tools** lesson
+* Opened browser Developer Tools and used F12
+
+### Problems faced
+
+* I could not clearly identify the disabled button or element
+* The lesson behavior seemed different from examples
+* I was unsure whether to modify HTML or Network requests
+* Because of this confusion, I could not complete the task successfully
+
+### What I still learned
+
+* Client-side controls exist in the browser
+* HTML and requests can be inspected
+* Client-side validation alone is not secure
+
+**OWASP related:**
+
+* A01 Broken Access Control
+* A05 Security Misconfiguration
+
+---
+
+## 6. Updating Linux System
+
+* Ran `sudo apt-get update`
+* Ran `sudo apt-get dist-upgrade`
+
+### Why this is important
+
+* Reduces known vulnerabilities
+* Keeps system components updated
+* Directly related to OWASP A06
+
+---
+
+## 7. SQLZoo Tasks
+
+### SELECT Basics
+
+* Practiced basic SELECT queries
+* Understood how data is retrieved
+
+### SELECT from World
+
+* Used WHERE clause to filter results
+* Used LIKE operator for pattern matching
+
+### Learning outcome
+
+* SELECT retrieves data
+* WHERE filters rows
+* LIKE helps in searching
+
+
+
+---
+
+## 8. PortSwigger – SQL Injection Lab (Partially Understood)
+
+* Learned about SQL injection in WHERE clause
+* Understood concept of `' OR 1=1 --`
+* Understood how logic can be manipulated
+
+**Limitation:** I understood the theory and steps but struggled to confidently complete the lab without external guidance.
+
+---
+
+## 9. Ethical Reflection
+
+* All work was done in permitted lab environments
+* No real systems were tested
+* Course rules were followed
+* Security skills must be used responsibly
+
+---
+
+## 10. Conclusion
+
+This assignment helped me understand important web security concepts, especially through OWASP Top 10 and SQL basics. However, I also realized that I need more guidance and practice with hands-on security labs like WebGoat and PortSwigger. The difficulties I faced showed me that cybersecurity requires patience and step-by-step learning.
+
+---
+
+## 11. Request for Guidance
+
+This is my humble request to please guide me step by step on:
+
+* Properly completing WebGoat lessons
+* Understanding Developer Tools tasks
+* Solving PortSwigger labs confidently
+* Improving my practical cybersecurity skills
+
+I am willing to learn and improve with proper guidance.
