@@ -22,7 +22,8 @@
 -The gpg --decrypt command automatically decrypts AND verifies the signature in one step, confirming both privacy and authenticity
 -Public keys can be shared over completely insecure channels — the only thing that needs a trusted channel is fingerprint verification
 
-###SSH connection
+### SSH connection
+![alt text](<Screenshot 2026-02-22 225729.png>)
 
 
 
@@ -31,8 +32,20 @@
 
 
 
+### Automate SSH with Public Keys
+![](<Screenshot 2026-02-22 230803.png>)
+![alt text](<Screenshot 2026-02-22 230659-1.png>)
+![alt text](<Screenshot 2026-02-22 230933.png>)
 
-###Automate SSH with Public Keys
+### Password Manager
+![alt text](<Screenshot 2026-02-22 234108.png>)
+
+### PGP Encryption
+![alt text](<Screenshot 2026-02-22 235928.png>)
+![alt text](<Screenshot 2026-02-23 000843.png>)
+
+### PPT
+ 
 
 
 
