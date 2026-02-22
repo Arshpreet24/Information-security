@@ -1,0 +1,43 @@
+## x) Reading Summary
+
+
+### Schneier 2015: Applied Cryptography — Chapter 1: Foundations
+
+-Plaintext is the original message, ciphertext is the encrypted version, and a key is what controls the encryption and decryption process
+-Symmetric encryption uses the same key for both encrypting and decrypting — fast but has the problem of securely sharing that key
+-Public-key (asymmetric) encryption uses two linked keys — a public key anyone can have, and a private key only you hold — solving the key sharing problem
+-Cryptanalysis is the art of breaking encryption — attackers can use ciphertext-only, known-plaintext, or chosen-plaintext attacks depending on what they have access to
+-Old ciphers like Caesar cipher are broken by frequency analysis — since E is the most common letter in English, patterns in ciphertext reveal the key
+-A one-time pad is the only mathematically perfect encryption — but it's impractical because the key must be as long as the message and never reused
+-Security is always about making breaking the encryption too expensive or slow to be worth it — not about making it literally impossible
+
+
+### Karvinen 2023: PGP — Send Encrypted and Signed Message — gpg
+
+-PGP does two things at once: encryption (nobody else can read the message) and signing (proves it came from you)
+-Each user generates a key pair with gpg --gen-key — public key is shared freely, private key is never shared
+-Before trusting someone's public key you must verify their fingerprint out-of-band (e.g. over a phone call) — this is the critical trust step
+-You encrypt with the recipient's public key, you sign with your own private key
+-Once encrypted, even the sender cannot read the message — only the recipient's private key can open it
+-The gpg --decrypt command automatically decrypts AND verifies the signature in one step, confirming both privacy and authenticity
+-Public keys can be shared over completely insecure channels — the only thing that needs a trusted channel is fingerprint verification
+
+###SSH connection
+
+
+
+
+
+
+
+
+
+###Automate SSH with Public Keys
+
+
+
+
+
+
+
+
